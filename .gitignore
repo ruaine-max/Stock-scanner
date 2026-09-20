@@ -1,0 +1,20 @@
+node_modules/
+venv/
+__pycache__/
+*.pyc
+.env
+.env.local
+
+# Per-market data files (not code — don't want to accidentally overwrite
+# your live scanned data by pulling/pushing a stale copy of these)
+dividend_cache_us.json
+dividend_cache_us.json.backup
+checked_tickers_us.json
+all_tickers_us.json
+yield_overrides_us.json
+dividend_cache_uk.json
+dividend_cache_uk.json.backup
+checked_tickers_uk.json
+yield_overrides_uk.json
+users.json
+sessions.json
